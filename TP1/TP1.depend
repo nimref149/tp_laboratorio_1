@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1567814065 source:c:\users\cristiandmk\desktop\espacio utn\curso 2\recursando tps\tp1\calculos.c
+	<stdio.h>
+	"calculos.h"
+
+1567799801 c:\users\cristiandmk\desktop\espacio utn\curso 2\recursando tps\tp1\calculos.h
+
+1567814043 source:c:\users\cristiandmk\desktop\espacio utn\curso 2\recursando tps\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"calculos.h"
+
