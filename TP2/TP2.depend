@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1569888178 source:c:\users\cristiandmk\desktop\espacio utn\curso 2\recursando tps\tp2\arrayemployees.c
+	"ArrayEmployees.h"
+
+1569888829 c:\users\cristiandmk\desktop\espacio utn\curso 2\recursando tps\tp2\arrayemployees.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1569888241 source:c:\users\cristiandmk\desktop\espacio utn\curso 2\recursando tps\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+
+1569932139 source:c:\users\alumno\desktop\nueva carpeta\laboratorio-1\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+	"input.h"
+
+1569932139 c:\users\alumno\desktop\nueva carpeta\laboratorio-1\tp2\arrayemployees.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1569932139 c:\users\alumno\desktop\nueva carpeta\laboratorio-1\tp2\input.h
+
+1570238455 source:c:\users\cristiandmk\desktop\espacio utn\curso 2\laboratorio-1\tp2\input.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<ctype.h>
+	<conio.h>
+	"input.h"
+	"ArrayEmployees.h"
+
+1570233922 c:\users\cristiandmk\desktop\espacio utn\curso 2\laboratorio-1\tp2\input.h
+
+1570237476 source:c:\users\cristiandmk\desktop\espacio utn\curso 2\laboratorio-1\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+	"input.h"
+
+1570237212 c:\users\cristiandmk\desktop\espacio utn\curso 2\laboratorio-1\tp2\arrayemployees.h
+
+1570237697 source:c:\users\cristiandmk\desktop\espacio utn\curso 2\laboratorio-1\tp2\arrayemployees.c
+	"ArrayEmployees.h"
+	"input.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<ctype.h>
+	<conio.h>
+
