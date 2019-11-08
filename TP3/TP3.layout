@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="Employee.c" open="1" top="0" tabpos="52" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="194" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="input.h" open="1" top="0" tabpos="57" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6542" topLine="148" />
+		</Cursor>
+	</File>
+	<File name="parser.c" open="1" top="0" tabpos="56" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2211" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Controller.c" open="1" top="0" tabpos="55" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2092" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Controller.h" open="1" top="0" tabpos="54" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="361" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="input.c" open="1" top="0" tabpos="58" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4596" topLine="194" />
+		</Cursor>
+	</File>
+	<File name="Employee.h" open="1" top="0" tabpos="53" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1034" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="parser.h" open="1" top="0" tabpos="60" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="154" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.c" open="1" top="1" tabpos="51" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="946" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="LinkedList.h" open="1" top="0" tabpos="59" split="0" active="1" splitpos="0" zoom_1="7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2685" topLine="29" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
