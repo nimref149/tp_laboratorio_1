@@ -13,6 +13,7 @@
  * \return int
  *
  */
+
 int controller_loadFromText(char* path, LinkedList* pArrayListEmployee)
 {
     int retorno=-1;
@@ -24,45 +25,16 @@ int controller_loadFromText(char* path, LinkedList* pArrayListEmployee)
         {
             retorno=parser_EmployeeFromText(miArchivo,pArrayListEmployee);
             fclose(miArchivo);
-
         }
-
     }
     else
     {
         retorno=-2;
     }
-
-
     return retorno;
 }
 
 
-/*
-int controller_loadFromText(char* path, LinkedList* pArrayListEmployee)
-{
-    //int retorno=-1;
-    FILE* miArchivo;
-    miArchivo=fopen(path,"r");
-    if(){
-    if(path!=NULL&&miArchivo!=NULL)
-    {
-        if(pArrayListEmployee!=NULL){
-
-        parser_EmployeeFromText(miArchivo,pArrayListEmployee);
-        fclose(miArchivo);
-        printf("Se cargo correctamente\n");
-        }
-    }else{
-    printf("No se pudo abrir el archivo\n");
-    }
-
-    }
-
-    return 1;
-}
-
-*/
 /** \brief Carga los datos de los empleados desde el archivo data.csv (modo binario).
  *
  * \param path char*
@@ -95,24 +67,6 @@ int controller_loadFromBinary(char* path, LinkedList* pArrayListEmployee)
 }
 
 
-/*
-int controller_loadFromBinary(char* path, LinkedList* pArrayListEmployee)
-{
-    FILE* pArchivo;
-    pArchivo= fopen(path,"rb");
-    if(path != NULL && pArrayListEmployee != NULL)
-    {
-        //controller_loadFromText("data.csv",pArrayListEmployee);
-        //controller_saveAsBinary(path,pArrayListEmployee);
-        //pArchivo = fopen(path, "rb");
-
-        parser_EmployeeFromBinary(pArchivo, pArrayListEmployee);
-        fclose(pArchivo);
-
-    }
-    return 1;
-}
-*/
 
 /** \brief Alta de empleados
  *
@@ -135,16 +89,17 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
     if(pArrayListEmployee != NULL)
     {
         if(listaCargada!=1){
+        system("cls");
         id=autoId(pArrayListEmployee,1);
         sprintf(idConvert,"%d",id);//convertir id a cadena
         while(getStringLetras(nombre,"Ingrese el nombre del empleado: ","Error",1,25)==-1);
-        while(getStringNumeros(horas,"Ingrese las horas trabajadas: ","Error",1,10000)==-1);
+        while(getStringNumeros(horas,"Ingrese las horas trabajadas: ","Error",1,1000)==-1);
         while(getStringFlotantes(sueldo,"Ingrese el sueldo del empleado: ","Error",1,100000)==-1);
 
         aux=employee_newParametros(idConvert,nombre,horas,sueldo);
-        printf("ID \t\t     NOMBRE \t SUELDO \t\t HORAS\n");
+        printf("ID \t\t     NOMBRE \t SUELDO \t HORAS\n");
         employee_list(aux);
-        if(confirm("Desea confirmar el empleado? S/N")==1)
+        if(confirm("Desea confirmar el empleado? S/N\n")==1)
         {
             ll_add(pArrayListEmployee,aux);
             retorno=1;
@@ -183,7 +138,7 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
     int respuesta;
     if(pArrayListEmployee!=NULL)
     {
-        if(listaCargada!=0)
+        if(listaCargada!=1)
         {
             controller_ListEmployee(pArrayListEmployee);
             while(getIntValid(&id,"Ingrese ID de empleado a modificar: ","Error",1,idMayor)==-1);
@@ -324,6 +279,7 @@ int controller_sortEmployee(LinkedList* pArrayListEmployee)
     {
         if(listaCargada!=1)
         {
+            system("cls");
             while(getIntValid(&opcion,"Menu ordenar empleados\n1-Por id\n2-Por sueldo\n3-Por nombre\n4-Por horas\n5-Salir\n","Error",1,5)==-1);
             switch(opcion)
             {
@@ -439,7 +395,7 @@ int controller_saveAsBinary(char* path, LinkedList* pArrayListEmployee)
     return retorno;
 }
 
-//Agregar ESTO luego los inputs el archivo y despues arreglo ordenar y eliminar. agregar el prototipo de ambas
+
 
 
 int autoId(LinkedList* pArrayListEmployee,int inicio)
@@ -533,7 +489,7 @@ int menuModificarEmpleado(LinkedList* pArrayListEmployee,int index)
         }
         break;
     case 2:
-        while(getIntValid(&auxHoras,"Ingrese horas: ","Error",1,100)==-1);
+        while(getIntValid(&auxHoras,"Ingrese horas: ","Error",1,1000)==-1);
         printf("Horas : %d\n",auxHoras);
         if(confirm("Desea confirmar? s/n\n")==1)
         {

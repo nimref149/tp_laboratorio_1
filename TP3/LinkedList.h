@@ -33,8 +33,6 @@ struct LinkedList
 #endif
 
 
-///trabajaremos con algunas funciones
-///linkedlist.a biblioteca encapsulada
 ///Publicas
 LinkedList* ll_newLinkedList(void);
 

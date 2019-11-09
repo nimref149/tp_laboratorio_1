@@ -203,3 +203,55 @@
 	<string.h>
 	"input.h"
 
+1573109232 source:c:\users\cristiandmk\desktop\nueva carpeta\laboratorio-1\tp3 2\tp3\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	<conio.h>
+	"input.h"
+
+1573262658 c:\users\cristiandmk\desktop\nueva carpeta\laboratorio-1\tp3 2\tp3\input.h
+
+1573262968 source:c:\users\cristiandmk\desktop\nueva carpeta\laboratorio-1\tp3 2\tp3\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Controller.h"
+	"parser.h"
+	<string.h>
+	"input.h"
+
+1573263412 c:\users\cristiandmk\desktop\nueva carpeta\laboratorio-1\tp3 2\tp3\linkedlist.h
+
+1573263580 c:\users\cristiandmk\desktop\nueva carpeta\laboratorio-1\tp3 2\tp3\employee.h
+
+1573263754 c:\users\cristiandmk\desktop\nueva carpeta\laboratorio-1\tp3 2\tp3\controller.h
+
+1573188446 c:\users\cristiandmk\desktop\nueva carpeta\laboratorio-1\tp3 2\tp3\parser.h
+
+1573188341 source:c:\users\cristiandmk\desktop\nueva carpeta\laboratorio-1\tp3 2\tp3\employee.c
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+	<stdio.h>
+	"input.h"
+
+1573188640 source:c:\users\cristiandmk\desktop\nueva carpeta\laboratorio-1\tp3 2\tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"input.h"
+
+1573263143 source:c:\users\cristiandmk\desktop\nueva carpeta\laboratorio-1\tp3 2\tp3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"input.h"
+

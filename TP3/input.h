@@ -161,7 +161,7 @@ int esAlfaNumerico(char str[]);
  * \param eMessage[] char
  * \param lowLimit int
  * \param hiLimit int
- * \return int
+ * \return int devuelve 0 si es y -1 si no es valido
  *
  */
 int getStringLetrasYnumeros(char* input,char message[],char eMessage[], int lowLimit, int hiLimit);
@@ -173,7 +173,7 @@ int getStringLetrasYnumeros(char* input,char message[],char eMessage[], int lowL
  * \param eMessage[] char
  * \param char
  * \param char
- * \return int
+ * \return int devuelve 0 si es numerico y -1 si no es valido
  *
  */
 int getCharValidOpciones(char* input,char message[],char eMessage[], char, char);

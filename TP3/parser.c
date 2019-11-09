@@ -68,27 +68,6 @@ int parser_EmployeeFromBinary(FILE* pFile, LinkedList* pArrayListEmployee)
 
     return retorno;
 }
-/*
-int parser_EmployeeFromBinary(FILE* pFile, LinkedList* pArrayListEmployee)
-{
-    Employee* aux;
-    int respuesta;
-    if(pFile != NULL && pArrayListEmployee != NULL)
-    {
-        //aux = (Employee*) malloc(sizeof(Employee));
-        while(!feof(pFile))
-        {
-            aux= employee_new();
-            respuesta=fread(aux, sizeof(Employee), 1, pFile);
-            if(respuesta == 1 && aux != NULL){
 
-            ll_add(pArrayListEmployee, aux);
-
-            }
-        }
-    }
-    return 1;
-}
-*/
 
 

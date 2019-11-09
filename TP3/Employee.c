@@ -17,36 +17,6 @@ Employee* employee_new()
     return this;
 }
 
-/*error
-Employee* employee_newParametros(char* idStr,char* nombreStr,char* horasTrabajadasStr, char* sueldoStr)
-{
-
-    Employee* this;
-
-    if (idStr != NULL && nombreStr != NULL && horasTrabajadasStr != NULL && sueldoStr != NULL)
-    {
-        this  = employee_new();
-
-        if( this != NULL)
-        {
-
-            if( !employee_setId(this, atoi(idStr))||
-                !employee_setNombre(this, nombreStr) ||
-                !employee_setHorasTrabajadas(this, atoi(horasTrabajadasStr)) ||
-                !employee_setSueldo(this, atof(sueldoStr)))
-                //!employee_setSueldo(this, atoi(sueldoStr)))
-            {
-                free(this);
-                this = NULL;
-            }
-        }else{
-        printf("No se encontro memoria para el empleado\n");
-        }
-    }
-
-    return this;
-}
-*/
 Employee* employee_newParametros(char* idStr,char* nombreStr,char* horasTrabajadasStr, char* sueldoStr)
 {
 
