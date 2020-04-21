@@ -89,8 +89,7 @@ namespace MiCalculadora
         private void btnConvertirADecimal_Click(object sender, EventArgs e)
         {
             lblResultado.Text = Numero.BinarioDecimal(lblResultado.Text);
-            btnConvertirABinario.Enabled = true;
-            btnConvertirADecimal.Enabled = false;
+
 
         }
 
@@ -102,8 +101,7 @@ namespace MiCalculadora
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
             lblResultado.Text = Numero.DecimalBinario(this.lblResultado.Text);
-            btnConvertirABinario.Enabled = false;
-            btnConvertirADecimal.Enabled = true;
+
         }
 
         private void cmb_OperadorSelectedIndexChanged(object sender, EventArgs e)

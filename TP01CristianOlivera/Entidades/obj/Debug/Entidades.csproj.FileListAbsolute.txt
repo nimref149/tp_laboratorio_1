@@ -4,3 +4,9 @@ C:\Users\CristianDmk\source\repos\TP01CristianOlivera\Entidades\obj\Debug\Entida
 C:\Users\CristianDmk\source\repos\TP01CristianOlivera\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\CristianDmk\source\repos\TP01CristianOlivera\Entidades\obj\Debug\Entidades.dll
 C:\Users\CristianDmk\source\repos\TP01CristianOlivera\Entidades\obj\Debug\Entidades.pdb
+C:\Users\CristianDmk\Desktop\2Espacio PROGRAMACION 2\TPS\TPS CURSO\TP01CristianOlivera\Entidades\bin\Debug\Entidades.dll
+C:\Users\CristianDmk\Desktop\2Espacio PROGRAMACION 2\TPS\TPS CURSO\TP01CristianOlivera\Entidades\bin\Debug\Entidades.pdb
+C:\Users\CristianDmk\Desktop\2Espacio PROGRAMACION 2\TPS\TPS CURSO\TP01CristianOlivera\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\CristianDmk\Desktop\2Espacio PROGRAMACION 2\TPS\TPS CURSO\TP01CristianOlivera\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\CristianDmk\Desktop\2Espacio PROGRAMACION 2\TPS\TPS CURSO\TP01CristianOlivera\Entidades\obj\Debug\Entidades.dll
+C:\Users\CristianDmk\Desktop\2Espacio PROGRAMACION 2\TPS\TPS CURSO\TP01CristianOlivera\Entidades\obj\Debug\Entidades.pdb
